@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 70px;
+}
+
+nav{
+    background-color: rgb(163, 149, 149);
+}
+
+nav ul{
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.main{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.main img{
+    height: 400px;
+    width: 800px;
+}
+
+footer{
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+
+footer p{
+    margin-top: 10px;
+}

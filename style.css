@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    color: rgb(51, 34, 2);
+    background-color: rgb(124, 186, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 35px;
+    padding: 5px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+
+.span h1{
+    display: inline-block;
+    background-color: rgb(27, 103, 170);
+}

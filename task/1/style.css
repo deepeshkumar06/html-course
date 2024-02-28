@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    color: white;
+    height: 70px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.header h1{
+    text-align: center;
+    top: 20px;
+}
+
+.sec-1{
+    background-color: whitesmoke;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.sec-1 h1,p{
+    top: 60px;
+    
+}
+
+.sec-2{
+    background-color: rgb(173, 165, 165);
+    height: 250px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.sec-2 h1,p{
+    color: black;
+    top: 60px;
+}
+
+.sec-3{
+    background-color: rgb(99, 95, 95);
+    height: 250px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.sec-3 h1,p{
+    color: black;
+    top: 60px;
+}
+
+.sec-4{
+    background-color: rgb(48, 45, 45);
+    height: 250px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.sec-4 h1,p{
+
+    top: 60px;
+    color: whitesmoke;
+}
+
+.sec-5{
+    background-color: rgb(32, 30, 30);
+    height: 250px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.sec-5 h1,p{
+
+    top: 60px;
+    color: whitesmoke;
+}
+
+.sec-6{
+    background-color: rgb(5, 5, 5);
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    top: 40px;
+}
+
+.sec-6 h1,p{
+    top: 60px;
+    color: whitesmoke;
+}

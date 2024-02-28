@@ -1,0 +1,20 @@
+td{
+    border-bottom: 1px solid rgb(55, 85, 10);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 8, 10);
+}
+
+table{
+    border-collapse: collapse;
+    position: relative;
+    margin-top: 250px;
+    margin-left: 600px;
+}
+
+th{
+    border-bottom: 1px solid rgb(55, 85, 10);
+    padding: 15px;
+    background-color: rgb(6, 149, 39);
+    color: rgb(255, 255, 255);
+}

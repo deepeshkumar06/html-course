@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: brown;
+    color: white;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 180px;
+}
+
+.welcome{
+    background-color: green;
+    color: white;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+.welcome h1{
+    padding: 25px;
+}
+
+nav{
+    position: absolute;
+    left: 0;
+    background-color: rgb(36, 32, 32);
+    color: white;
+    width: 180px;
+    height: 100%;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.about{
+    background-color: blue;
+    color: white;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+.about h1{
+    padding: 25px;
+}
+
+.service{
+    background-color: green;
+    color: white;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 180px;
+}
+
+.service h1{
+    padding: 25px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 180px;
+    text-align: center;
+    width: 1420px;
+    bottom: 0;
+    position: fixed;
+}
+
+footer p{
+    margin-top: 15px;
+}
