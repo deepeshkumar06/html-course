@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8AAAE5;
+}
+.container{
+    border: 1px solid black;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    position: relative;
+    top: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.contact{
+    background:  #FFFFFF;
+    width: 50%;
+    height: 100%;
+    padding: 20px 0px 20px 30px;
+    
+}
+.contact h3{
+    padding: 5px 10px 10px 5px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contact p{
+    padding: 5px 10px 70px 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.query{
+    background-color: #0c5f6a;
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.query .text{
+    padding: 40px;
+    height: 20px;
+}
+.query .text h1{
+    position: relative;
+    top: 10px;
+}
+.query1 .input {
+    display: grid;
+    row-gap: 10px;
+    width: 300px;
+    position: relative;
+    bottom: 50px;
+}
+
+.query1 .input input,
+.query1 .input textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+    border: 1px solid #ccc; /* Add border for clarity */
+    border-radius: 5px; /* Add rounded corners for visual appeal */
+}
+
+/* Adjust height of the textarea */
+.query1 .input textarea {
+    height: 100px; /* Adjust height as needed */
+}
+
+.query .button{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+} 
+
+.button-54 {
+    display: flex;
+    justify-content: start;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    height: 30px;
+  }
+  
+  .button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+    }
+  }
+  
