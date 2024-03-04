@@ -1,0 +1,62 @@
+body{
+    background-image: url("bg.png");
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.container{
+    display: flex;
+}
+
+.ball{
+    margin-top: 300px;
+    margin-left: 600px;
+}
+
+.bounce {
+    animation: bounce 1s;
+}
+.obstacle #t1{
+    margin-top: 284px;
+    animation: move 2s infinite linear;
+}
+.obstacle #t2{
+    position: relative;
+    right: 800px;
+    bottom: 200px;
+    animation: move 2s infinite linear;
+}
+hr{
+    height: 10px;
+    background: #000;
+}
+.obstacle #ty1{
+    position: relative;
+    right: 704px;
+    bottom: 80px;
+    animation: rotate 2s infinite linear;
+}
+.obstacle #ty2{
+    position: relative;
+    right: 210px;
+    bottom: 180px;
+    animation: rotate 2s infinite linear;
+}
+@keyframes rotate {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translate(1400px);
+    }
+}
+
