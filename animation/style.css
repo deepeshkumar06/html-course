@@ -19,12 +19,14 @@ body{
 .obstacle #t1{
     margin-top: 284px;
     animation: move 2s infinite linear;
+    z-index: -1;
 }
 .obstacle #t2{
     position: relative;
     right: 800px;
     bottom: 200px;
     animation: move 2s infinite linear;
+    z-index: -1;
 }
 hr{
     height: 10px;
